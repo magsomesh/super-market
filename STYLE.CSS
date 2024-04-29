@@ -1,0 +1,79 @@
+nav{
+    background-color: brown;
+    color: white;
+    padding: 20px;
+    
+} 
+li, h1,ul{
+    display: inline;
+}
+ ul{
+    margin-left: 50%;
+ }
+ li{
+    color:black;
+    
+ }
+ li:hover{
+    color: white;
+ }
+ input{
+    width: 60%;
+    padding: 15px;
+ }
+ .searchbar{
+    padding: 25px;
+  
+ }
+ .box{
+   margin-top: 20PX;
+   border-color: black;
+   border-width: 2px;
+   border-style: solid;
+   display: inline-block;
+   width:220px;
+   height:470px;
+  
+   
+   
+ }
+ .box:hover{
+   background-color: blueviolet;
+   color: white;
+ }
+ .product{
+   text-align: center;
+ }
+ .about{
+  margin-top: 20px;
+   padding: 20PX;
+ }
+ .CONTACT{
+   text-align: CENTER;
+   background-color:brown;
+   color: black;
+   padding: 20PX;
+   margin-top: 40px;
+ }
+ 
+ 
+ body{
+   background-image: url(IMG/delicious-food-arrangement-flat-lay.jpg);
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+ }
+ button{
+   border: none;
+   outline: none;
+   font-size: 1rem;
+   padding: 10PX 12PX;
+   border-radius: 10PX;
+   
+ }
+ .searchbar input::placeholder{
+  backdrop-filter: 20px;
+  
+
+ }

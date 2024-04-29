@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+BODY{
+    background: url(IMG/peppers-space-left.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+ }
+.REGISTER{
+    text-align: center;
+    margin-top: 250PX;
+    box-sizing: border-box;
+}
+.REGISTER H1{
+font-family: sans-serif;
+margin-bottom: 2;
+}
+.REGISTER button{
+    text-align: center;
+}
